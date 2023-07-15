@@ -355,16 +355,16 @@ export const Chat = memo(({ stopConversationRef }: Props) => {
             Welcome to Chatbot UI
           </div>
           <div className="text-center text-lg text-black dark:text-white">
-            <div className="mb-8">{`Another ChatUI for ChimeraGPT with Poe models.`}</div>
+            <div className="mb-8">{`GPT with Poe models.`}</div>
             <div className="mb-2">
               {t(
-                'Please set your ChimeraAPI key by placing it in "OpenAI API Key" textbox located in the bottom left of the sidebar.',
+                '请在侧边栏左下方的“OpenAI API key”文本框中输入您的API key',
               )}
             </div>
             <div>
-              {t("If you don't have an ChimeraAPI key, you can get one here: ")}
+              {t("如果你没有API Key或者有其他需求，你可以联系V:StarMoon0602获取。 ")}
               <a
-                href="https://discord.gg/pCTprCYhuV"
+                href=""
                 target="_blank"
                 rel="noreferrer"
                 className="text-blue-500 hover:underline"
