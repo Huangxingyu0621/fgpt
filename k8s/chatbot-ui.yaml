@@ -1,9 +1,9 @@
-apiVersion: api/v1
+apiVersion: v1
 kind: Namespace
 metadata:
   name: chatbot-ui
 ---
-apiVersion: api/v1
+apiVersion: v1
 kind: Secret
 metadata:
   namespace: chatbot-ui
@@ -43,7 +43,7 @@ spec:
                   key: OPENAI_API_KEY
 ---
 kind: Service
-apiVersion: api/v1
+apiVersion: v1
 metadata:
   namespace: chatbot-ui
   name: chatbot-ui
